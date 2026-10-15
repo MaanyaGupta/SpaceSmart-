@@ -1,0 +1,54 @@
+:root {
+  /* Brand Color Palette */
+  --color-primary: #1C382B;         /* Deep Forest Green */
+  --color-primary-dark: #12241C;    /* Deep Forest Shadow */
+  --color-primary-light: #2A523F;   /* Lighter Forest */
+  --color-accent: #769581;          /* Muted Sage */
+  --color-accent-subtle: #E8EFEA;   /* Soft Sage Tint */
+  --color-accent-hover: #5F7F6B;    /* Deeper Sage */
+
+  /* Neutral Backgrounds & Surfaces */
+  --bg-primary: #FAF7F2;            /* Warm Off-White / Cream */
+  --bg-secondary: #F3EFE9;          /* Slightly deeper warm cream */
+  --bg-card: #FFFFFF;               /* Clean white surface */
+  --surface-warm: #EFE9DF;          /* Warm beige surface */
+  --surface-warm-light: #F7F4EE;    /* Soft warm beige */
+
+  /* Text & Charcoal Tones */
+  --text-primary: #222624;          /* Deep Charcoal */
+  --text-secondary: #525C56;        /* Muted Charcoal / Olive */
+  --text-muted: #7A8580;            /* Soft Muted Gray-Green */
+  --text-on-dark: #FAF7F2;          /* Off-white on dark backgrounds */
+
+  /* Borders & Dividers */
+  --border-subtle: #E5DFD5;         /* Soft warm border */
+  --border-medium: #D1C9BE;         /* Medium warm border */
+  --border-dark: #2A523F;
+
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Elevation & Shadows */
+  --shadow-subtle: 0 1px 3px rgba(28, 56, 43, 0.05), 0 1px 2px rgba(28, 56, 43, 0.03);
+  --shadow-card: 0 4px 16px rgba(28, 56, 43, 0.06), 0 1px 3px rgba(28, 56, 43, 0.04);
+  --shadow-hover: 0 10px 28px rgba(28, 56, 43, 0.1), 0 2px 6px rgba(28, 56, 43, 0.05);
+  --shadow-dropdown: 0 12px 36px rgba(18, 36, 28, 0.15);
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --max-width: 1200px;
+  --max-width-narrow: 840px;
+  --header-height: 72px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
