@@ -12,7 +12,7 @@ export const categories = [
     metaDescription:
       'Discover practical small bedroom ideas, clever furniture arrangements, under-bed storage, and vertical shelving to make compact bedrooms feel spacious and serene.',
     image:
-      'https://images.unsplash.com/photo-1540518614846-7ede433c4570?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80',
     imageAlt: 'Calm, minimalist small bedroom with warm wooden accents and tidy under-bed storage drawers',
     colorAccent: '#4D6B5B',
     stats: '6 actionable guides',

@@ -207,22 +207,29 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ==================== NEWSLETTER ==================== */}
-        <section className="newsletter-section" aria-labelledby="newsletter-heading">
+        {/* ==================== EDITORIAL CTA ==================== */}
+        <section className="newsletter-section" aria-labelledby="cta-heading">
           <div className="container">
             <div className="newsletter-box">
-              <p className="newsletter-kicker">SpaceSmart Newsletter</p>
-              <h2 id="newsletter-heading" className="newsletter-title">
-                Compact Living Ideas, Weekly
+              <p className="newsletter-kicker">Start Organizing Today</p>
+              <h2 id="cta-heading" className="newsletter-title">
+                Find Your Next Organization Win
               </h2>
               <p className="newsletter-desc">
-                One focused organization guide or tip, delivered weekly. No product spam, no
-                affiliate pressure — just genuinely useful advice for small-space living.
+                Explore our most-read guides covering small bedrooms, storage solutions, decluttering,
+                and budget-friendly ideas for renters and compact homes.
               </p>
-              <div className="newsletter-demo-msg">
-                <strong>Note:</strong> SpaceSmart is currently an independent editorial website
-                without a backend mail service. Newsletter subscriptions are not yet active.
-                Bookmark this site and check back for new guides published regularly.
+              <div className="cta-link-row">
+                <Link to="/small-bedroom-ideas" className="btn btn-primary">
+                  <span>Bedroom Ideas</span>
+                  <ArrowRight size={15} aria-hidden="true" />
+                </Link>
+                <Link to="/storage-solutions" className="btn btn-secondary-light">
+                  Storage Solutions
+                </Link>
+                <Link to="/decluttering" className="btn btn-secondary-light">
+                  Decluttering Guides
+                </Link>
               </div>
             </div>
           </div>

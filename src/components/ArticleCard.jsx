@@ -19,6 +19,11 @@ export default function ArticleCard({ article, featured = false }) {
           loading="lazy"
           width="600"
           height="375"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src =
+              'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80';
+          }}
         />
       </Link>
 

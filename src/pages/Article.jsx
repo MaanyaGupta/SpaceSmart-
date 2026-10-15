@@ -90,6 +90,11 @@ export default function Article() {
             width="1400"
             height="520"
             fetchpriority="high"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src =
+                'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1400&q=80';
+            }}
           />
           <div className="article-hero-overlay" aria-hidden="true" />
 

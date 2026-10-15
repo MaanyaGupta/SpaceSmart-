@@ -8,7 +8,7 @@ export const articles = [
     categoryName: 'Small Bedroom Ideas',
     categoryPath: '/small-bedroom-ideas',
     heroImage:
-      'https://images.unsplash.com/photo-1540518614846-7ede433c4570?auto=format&fit=crop&w=1400&q=80',
+      'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1400&q=80',
     heroImageAlt:
       'Tidy compact bedroom featuring floating wooden side shelves, under-bed storage, and soft natural lighting',
     imageCaption: 'Keeping floor pathways clear and utilizing wall heights is the foundation of compact bedroom comfort.',

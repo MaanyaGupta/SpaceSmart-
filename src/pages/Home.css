@@ -319,9 +319,9 @@
   gap: 2rem;
 }
 
-/* ---- Newsletter Section ---- */
+/* ---- Editorial CTA Section (replaces newsletter) ---- */
 .newsletter-section {
-  padding: 5rem 0;
+  padding: 4rem 0;
   background-color: var(--color-primary-dark);
   color: #FAF7F2;
   text-align: center;
@@ -353,21 +353,35 @@
   color: rgba(250, 247, 242, 0.78);
   font-size: 1.05rem;
   line-height: 1.6;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-.newsletter-demo-msg {
-  background-color: rgba(118, 149, 129, 0.15);
-  border: 1px solid rgba(118, 149, 129, 0.35);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem 2rem;
-  color: rgba(250, 247, 242, 0.82);
-  font-size: 0.92rem;
-  line-height: 1.6;
+.cta-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.newsletter-demo-msg strong {
-  color: var(--color-accent);
+.btn-secondary-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: var(--radius-full);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.btn-secondary-light:hover {
+  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.45);
 }
 
 /* Responsive */
@@ -403,5 +417,17 @@
   .tips-section,
   .latest-section {
     padding: 3.5rem 0;
+  }
+  .newsletter-section {
+    padding: 3rem 0;
+  }
+  .cta-link-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cta-link-row .btn,
+  .cta-link-row .btn-secondary-light {
+    width: 100%;
+    justify-content: center;
   }
 }

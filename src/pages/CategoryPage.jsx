@@ -37,6 +37,11 @@ export default function CategoryPage({ categorySlug }) {
             width="1200"
             height="500"
             fetchpriority="high"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src =
+                'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80';
+            }}
           />
           <div className="category-banner-overlay" aria-hidden="true" />
           <div className="container">
@@ -113,6 +118,11 @@ export default function CategoryPage({ categorySlug }) {
                     loading="lazy"
                     width="60"
                     height="60"
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src =
+                        'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=60&q=80';
+                    }}
                   />
                   <div>
                     <p className="other-cat-name">{cat.name}</p>
