@@ -1,0 +1,10 @@
+# Default allow rules for SpaceSmart
+User-agent: *
+Allow: /
+
+# Exclude generic search result pages and draft/test URLs
+Disallow: /search
+Disallow: /draft/
+
+# Sitemap
+Sitemap: https://spacesmart.vercel.app/sitemap.xml
